@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${aurora.className} font-sans antialiased`}>
+      <body className={`${aurora.variable} antialiased`} style={{ fontFamily: "var(--font-aurora), sans-serif" }}>
         {children}
       </body>
     </html>
