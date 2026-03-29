@@ -29,7 +29,7 @@ export default function Home() {
   const noShowReduction = useCounter(40, statsVisible)
   const deskTimeRecovered = useCounter(40, statsVisible)
 
-  const HOW_IT_WORKS_URL = "https://your-deployed-site.vercel.app/how-it-works"
+  const HOW_IT_WORKS_URL = "https://v0-vii-landing-page-p4z8rstcs-sss-projects-7e5e1e02.vercel.app"
 
   return (
     <>
