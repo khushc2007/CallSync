@@ -127,10 +127,6 @@
   button {
     @apply transition-all duration-300;
   }
-
-  button:hover {
-    @apply shadow-[0_0_20px_rgba(239,68,68,0.8),0_0_40px_rgba(239,68,68,0.5)];
-  }
 }
 
 /* Adding pulsing animation for image that scales between 95% and 105% */
